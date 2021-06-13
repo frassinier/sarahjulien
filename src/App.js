@@ -84,7 +84,7 @@ function App() {
             <div className="card">
               <h3 className="card__title">Se loger</h3>
               <p>Exemples de logements à proximité du lieu de réception:</p>
-              <ul role="list">
+              <ul>
                 <li>
                   <a href="https://www.abritel.fr/location-vacances/p1927903?arrival=2021-09-04&departure=2021-09-05&oc=OYxW767nIghuafjTWqR9r&uni_id=2103678&utm_campaign=earned%3Aabritel%3Asharecopylink%3AFRA&utm_content=1927903&utm_medium=social&utm_source=direct">
                     <span class="material-icons">bed</span> Une chambre de 30m²
