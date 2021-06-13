@@ -1,8 +1,8 @@
 :root {
   --white: #fff;
-  --darkgreen: #728784;
+  --green: #728784;
   --black: #202020;
-  --green: #57674b;
+  --darkgreen: #57674b;
   --purple: #6a5d82;
   --pink: #f4c2d2;
 
@@ -26,4 +26,14 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+[role="list"] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.material-icons {
+  vertical-align: middle;
 }
