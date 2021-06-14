@@ -1,0 +1,11 @@
+.alert p {
+  padding: 0.25rem 0.5rem;
+  background: var(--interactive-color);
+  border-radius: 4px;
+}
+
+.alert img {
+  padding-right: 0.5rem;
+  max-width: 1.75rem;
+  vertical-align: middle;
+}
