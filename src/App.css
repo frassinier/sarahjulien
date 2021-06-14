@@ -168,6 +168,10 @@ time {
     padding: 0.5rem;
   }
 
+  .container img {
+    max-width: 90vw;
+  }
+
   .timeline:before {
     display: none;
   }
