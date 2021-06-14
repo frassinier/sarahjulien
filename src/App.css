@@ -9,7 +9,7 @@
   transition: all 1s ease-out;
 }
 
-.container img {
+.container > img {
   position: fixed;
   top: 0;
   margin: 0 auto;
@@ -25,7 +25,7 @@ main {
   justify-content: center;
   align-items: center;
   background: var(--background-color);
-  border-radius: 8px;
+  border-radius: 0.8rem;
 }
 
 a {
@@ -47,17 +47,38 @@ time {
   line-height: 1.15;
   font-size: 4rem;
   font-family: "Marck Script", cursive;
+  color: var(--purple);
 }
 
 .title,
 .description {
   text-align: center;
 }
-
+.sub-title {
+  font-size: 2.7rem;
+}
+.description {
+  font-size: 2rem;
+}
+strong {
+  position: relative;
+  z-index: 0;
+}
+strong:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--pink);
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-1deg);
+}
+.sub-title,
 .description {
   margin-top: 0rem;
   line-height: 1.5;
-  font-size: 1.5rem;
 }
 
 .timeline {
@@ -78,7 +99,7 @@ time {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0px, 1fr));
-  max-width: 800px;
+  max-width: 60rem;
 }
 
 .card {
@@ -168,7 +189,7 @@ time {
     padding: 0.5rem;
   }
 
-  .container img {
+  .container > img {
     max-width: 90vw;
   }
 

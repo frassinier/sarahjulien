@@ -17,7 +17,7 @@ export const Planning = () => (
       </address>
     </div>
     <div className="planning">
-      <h5 className="planning__title">Planning</h5>
+      <h3 className="planning__title">Planning</h3>
       <dl>
         <div>
           <dt>Cérémonie</dt>

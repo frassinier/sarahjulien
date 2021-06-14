@@ -12,12 +12,14 @@ function App() {
       <img src={logo} alt="" />
       <main>
         <h1 className="title">Save the date</h1>
-        <h2 className="sub-title">Sarah & Julien vont essayer de se marier!</h2>
-        <p className="description">
-          <span className="title">Samedi 4 Septembre 2021</span>
+        <h2 className="sub-title">
+          Sarah &amp; Julien
           <br />
-          Brunch prévu le Dimanche
-        </p>
+          vont <em>essayer</em> de se marier le
+          <br />
+          <strong>samedi 4 Septembre 2021</strong>
+        </h2>
+        <p className="description">Et un brunch est prévu le dimanche !</p>
 
         <div className="timeline">
           <div className="grid">
